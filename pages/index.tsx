@@ -43,6 +43,19 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
+            <StlViewer
+          style={style}
+          orbitControls
+          shadows
+          url="snake.stl"
+          modelProps={{
+              color:"royalblue",
+              scale: 1.5,
+              positionX: 70,
+              positionY: -5
+          }}
+      /> 
+
         <StlViewer
           style={style}
           orbitControls
